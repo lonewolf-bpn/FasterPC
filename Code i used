@@ -1,0 +1,21 @@
+///Animation by bat exe convertor 
+
+pause
+@echo off
+set "DIR_TO_DELETEB=C:\Windows\Temp"
+set "DIR_TO_DELETEC=C:\Windows\Prefetch"
+
+
+
+
+IF EXIST %DIR_TO_DELETEB% (
+    FOR /D %%p IN ("%DIR_TO_DELETEB%\*.*") DO rmdir "%%p" /S /Q
+    del %DIR_TO_DELETEB%\*.* /F /Q
+)
+
+
+IF EXIST %DIR_TO_DELETEC% (
+    FOR /D %%p IN ("%DIR_TO_DELETEC%\*.*") DO rmdir "%%p" /S /Q
+    del %DIR_TO_DELETEC%\*.* /F /Q
+
+)
