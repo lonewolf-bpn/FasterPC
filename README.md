@@ -2,7 +2,12 @@
 
 This is a small bat based application. This application deletes unwanted files form pc and speeds up pc performance 
 
-You just have to dubble click on application and it will do all
+******************
+Download of clone and run EXE file 
+
+You just have to dubble click on application and it will work
+
+any problem found do rever me back
 
 
 For more info please contact me at 
