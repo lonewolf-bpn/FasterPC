@@ -1,0 +1,45 @@
+
+@echo off
+color C
+title Fast 
+echo  .                                      
+echo .oo//oo-`+s+//os:.os+////-.so/////--so//+s+`   
+echo   /s-  .+/`+s.  `oo-oo.     .so`     -s/   :s+`  
+echo   -so/-`  `+s.  .oo-oo-....`.so-.... -s/   `os.  
+echo    `-/+so:`+soooo+.`os/////..so/////`-s/   `+s-  
+echo  `::`  `os-+s.     `oo.     .so`     -s/   .oo.  
+echo  `+s:` .oo.+s.     `oo.     .so`     -s+``.+s:   
+echo   `:+ooo/.`/+.     `+++++++/.+++++++:-+++++/-    
+echo .
+pause
+
+@echo off
+set "DIR_TO_DELETEB=C:\Windows\Temp"
+set "DIR_TO_DELETEC=C:\Windows\Prefetch"
+
+
+
+
+IF EXIST %DIR_TO_DELETEB% (
+    FOR /D %%p IN ("%DIR_TO_DELETEB%\*.*") DO rmdir "%%p" /S /Q
+    del %DIR_TO_DELETEB%\*.* /F /Q
+)
+
+
+IF EXIST %DIR_TO_DELETEC% (
+    FOR /D %%p IN ("%DIR_TO_DELETEC%\*.*") DO rmdir "%%p" /S /Q
+    del %DIR_TO_DELETEC%\*.* /F /Q
+
+)
+pause
+echo  .                                      
+echo .oo//oo-`+s+//os:.os+////-.so/////--so//+s+`   
+echo   /s-  .+/`+s.  `oo-oo.     .so`     -s/   :s+`  
+echo   -so/-`  `+s.  .oo-oo-....`.so-.... -s/   `os.  
+echo    `-/+so:`+soooo+.`os/////..so/////`-s/   `+s-  
+echo  `::`  `os-+s.     `oo.     .so`     -s/   .oo.  
+echo  `+s:` .oo.+s.     `oo.     .so`     -s+``.+s:   
+echo   `:+ooo/.`/+.     `+++++++/.+++++++:-+++++/-    
+echo .
+pause
+ 
