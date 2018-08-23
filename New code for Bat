@@ -13,10 +13,6 @@ echo .
 
 @echo off
 
-%SystemRoot%\explorer.exe  "C:\Windows\Temp"
-%SystemRoot%\explorer.exe "C:\Windows\Prefetch"
-%SystemRoot%\explorer.exe "%TEMP%"
-
 set "DIR_TO_DELETEB=C:\Windows\Temp"
 set "DIR_TO_DELETEC=C:\Windows\Prefetch"
 set "DIR_TO_DELETED=%temp%"
@@ -48,3 +44,6 @@ echo  `+s:` .oo.+s.     `oo.     .so`     -s+``.+s:
 echo   `:+ooo/.`/+.     `+++++++/.+++++++:-+++++/-    
 echo .
 pause
+%SystemRoot%\explorer.exe  "C:\Windows\Temp"
+%SystemRoot%\explorer.exe "C:\Windows\Prefetch"
+%SystemRoot%\explorer.exe "%TEMP%"
