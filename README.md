@@ -3,11 +3,11 @@
 This is a small bat based application. This application deletes unwanted files form pc and speeds up pc performance 
 
 ******************
-Download of clone and run EXE file 
+Download oR clone and run EXE file 
 
 You just have to dubble click on application and it will work
 
-any problem found do rever me back
+Any problem found do revert me back
 
 
 For more info please contact me at 
